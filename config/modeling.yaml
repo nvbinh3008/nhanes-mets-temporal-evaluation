@@ -1,0 +1,153 @@
+version: "1.0.0"
+seed: 20260715
+
+paths:
+  representation_root: "data/hei2020/representations"
+  model_root: "models/survey_aware"
+  data_output_root: "data/modeling"
+  report_root: "reports/modeling"
+
+data:
+  target: "mets_prevalent"
+  id_columns:
+    - "cycle_id"
+    - "cycle_role"
+    - "seqn"
+    - "recall_day"
+  survey_columns:
+    development_weight: "weight_development_2007_2014"
+    temporal_weight: "weight_test_2015_2018"
+    full_weight: "weight_full_2007_2018"
+    stratum: "stratum_pool"
+    psu: "psu_pool"
+  expected_roles:
+    development: "development"
+    temporal_test: "temporal_test"
+  views:
+    primary: "day1_primary"
+    sensitivity: "two_day_average"
+  representations:
+    - "R0"
+    - "R1"
+    - "R2"
+    - "R3"
+    - "R4"
+    - "R5"
+  categorical_features:
+    R0: []
+    R1: []
+    R2: []
+    R3: []
+    R4: []
+    R5:
+      - "sex"
+      - "race_ethnicity_legacy"
+      - "education_adult"
+      - "smoking_status"
+  leakage_patterns:
+    - "^mets"
+    - "^component_"
+    - "^metabolic_syndrome"
+    - "(^|_)waist"
+    - "(^|_)triglycer"
+    - "(^|_)hdl"
+    - "(^|_)systolic"
+    - "(^|_)diastolic"
+    - "(^|_)blood_pressure"
+    - "(^|_)fasting_glucose"
+    - "(^|_)glucose_lowering"
+    - "(^|_)antihypertensive"
+    - "(^|_)tg_specific"
+    - "(^|_)tyg"
+    - "(^|_)homa"
+    - "(^|_)lap($|_)"
+    - "(^|_)vai($|_)"
+    - "(^|_)cmi($|_)"
+    - "(^|_)mean_arterial"
+    - "(^|_)pulse_pressure"
+
+cross_validation:
+  outer_splits: 5
+  inner_splits: 4
+  calibration_splits: 3
+  stratify_by_cycle_and_outcome: true
+  group_by_psu: true
+  selection_metric: "log_loss"
+  secondary_metric: "brier"
+  calibration_methods:
+    - "none"
+    - "sigmoid"
+    - "isotonic"
+
+models:
+  algorithms:
+    - "logistic"
+    - "boost_unconstrained"
+    - "boost_monotonic"
+
+  logistic:
+    candidates:
+      - {C: 0.05}
+      - {C: 0.2}
+      - {C: 1.0}
+      - {C: 5.0}
+      - {C: 25.0}
+    max_iter: 4000
+
+  boost:
+    candidates:
+      - {learning_rate: 0.03, max_iter: 250, max_leaf_nodes: 7,  min_samples_leaf: 30, l2_regularization: 0.0}
+      - {learning_rate: 0.03, max_iter: 350, max_leaf_nodes: 15, min_samples_leaf: 30, l2_regularization: 0.5}
+      - {learning_rate: 0.05, max_iter: 250, max_leaf_nodes: 15, min_samples_leaf: 20, l2_regularization: 0.0}
+      - {learning_rate: 0.05, max_iter: 350, max_leaf_nodes: 31, min_samples_leaf: 30, l2_regularization: 1.0}
+      - {learning_rate: 0.08, max_iter: 200, max_leaf_nodes: 15, min_samples_leaf: 40, l2_regularization: 1.0}
+      - {learning_rate: 0.08, max_iter: 250, max_leaf_nodes: 31, min_samples_leaf: 50, l2_regularization: 2.0}
+    early_stopping: false
+
+monotonic_constraints:
+  R0: {}
+  R1:
+    hei2020_total: -1
+  R2:
+    "__prefix__:hei_": -1
+  R3:
+    "__prefix__:rule_full_adherence_": -1
+  R4:
+    "__prefix__:rule_state_": -1
+    total_violation_burden: 1
+    adequacy_violation_burden: 1
+    moderation_violation_burden: 1
+    number_full_adherence_rules: -1
+    number_zero_score_rules: 1
+    maximum_violation_severity: 1
+  R5:
+    "__prefix__:rule_state_": -1
+    total_violation_burden: 1
+    adequacy_violation_burden: 1
+    moderation_violation_burden: 1
+    number_full_adherence_rules: -1
+    number_zero_score_rules: 1
+    maximum_violation_severity: 1
+    age_years: 1
+    ltpa_mvpa_equivalent_min_week: -1
+
+calibration:
+  probability_epsilon: 1.0e-6
+  curve_bins: 10
+
+threshold:
+  strategy: "weighted_youden"
+  fallback: 0.5
+
+# HISTORICAL / SUPERSEDED intervals. RC2 blocks the modeling commands using this block.
+uncertainty:
+  method: "stratified_psu_bootstrap"
+  replicates: 500
+  confidence_level: 0.95
+
+temporal_evaluation:
+  one_time_only: true
+  require_frozen_spec: true
+  started_marker: "TEMPORAL_EVALUATION_STARTED.json"
+  completed_lock: "TEMPORAL_EVALUATION_LOCK.json"
+

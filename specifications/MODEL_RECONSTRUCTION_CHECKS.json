@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-11-07T11:37:13.814784+00:00",
+  "checks": [
+    {
+      "view": "day1_primary",
+      "bundle_sha256": "1bc9c6dffba21ce08b008b0f581bba4ec67c0905ca18d45e3a3ab95cbeeab296",
+      "bundle_hash_match": true,
+      "development_file_hash_match": true,
+      "model_source_tree_sha256": "dc13b2a50412ae9f3cfea8322e1d6d9e479bd8c5c0cf4ae2b4a5c1978da9cd61",
+      "source_tree_matches_frozen": true,
+      "n": 3894,
+      "probabilities_exactly_equal": true,
+      "max_absolute_difference": 0.0,
+      "fitting_primary_performed": false,
+      "loading_warnings": [
+        "Trying to unpickle estimator SimpleImputer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator Pipeline from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator OneHotEncoder from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator MissingIndicator from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator ColumnTransformer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator LabelEncoder from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator _BinMapper from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator HistGradientBoostingClassifier from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+      ]
+    },
+    {
+      "view": "two_day_average",
+      "bundle_sha256": "8a19db15a32d14eea3bd79a24832f0ddfe4619578d6a5bd5213c2af6ac590542",
+      "bundle_hash_match": true,
+      "development_file_hash_match": true,
+      "model_source_tree_sha256": "dc13b2a50412ae9f3cfea8322e1d6d9e479bd8c5c0cf4ae2b4a5c1978da9cd61",
+      "source_tree_matches_frozen": true,
+      "n": 3381,
+      "probabilities_exactly_equal": true,
+      "max_absolute_difference": 0.0,
+      "fitting_primary_performed": false,
+      "loading_warnings": [
+        "Trying to unpickle estimator SimpleImputer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator Pipeline from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator OneHotEncoder from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator MissingIndicator from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator ColumnTransformer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator LabelEncoder from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator _BinMapper from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+        "Trying to unpickle estimator HistGradientBoostingClassifier from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+      ]
+    }
+  ],
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

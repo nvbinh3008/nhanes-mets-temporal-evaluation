@@ -1,0 +1,57 @@
+# Paths are resolved relative to this YAML file.
+root: ..
+dictionary: NHANES_cycle_harmonization_dictionary_v1_2_4.xlsx
+
+paths:
+  raw: data/raw
+  staged: data/staged
+  processed: data/processed
+  reports: reports
+  logs: logs
+
+output_format: parquet
+strict: true
+
+selection:
+  roles:
+    - development
+    - temporal_test
+  statuses:
+    - required_primary
+  optional_statuses:
+    - blacklist_audit_only
+    - sensitivity_only
+
+download:
+  retries: 4
+  timeout_seconds: 90
+  chunk_size_bytes: 1048576
+  user_agent: "NHANES-rule-HEI-ETL/0.1.4 (academic research; contact set by investigator)"
+
+structure:
+  one_to_many_stems:
+    - DR1IFF
+    - DR2IFF
+    - RXQ_RX
+  person_level_stems:
+    - DEMO
+    - DR1TOT
+    - DR2TOT
+    - BMX
+    - BPX
+    - BPQ
+    - DIQ
+    - TRIGLY
+    - HDL
+    - GLU
+    - FASTQX
+    - PAQ
+    - SMQ
+    - GHB
+    - INS
+    - TCHOL
+
+medication:
+  # Optional investigator-verified exact mapping with columns:
+  # rx_generic_drug_id, flag, therapeutic_class
+  drug_id_map: config/drug_id_map_template.csv

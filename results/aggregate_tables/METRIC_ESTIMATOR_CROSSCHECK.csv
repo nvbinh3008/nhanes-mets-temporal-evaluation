@@ -1,0 +1,325 @@
+﻿view,representation,algorithm,metric,new_estimate,library_reference,difference,note
+day1_primary,R0,boost_monotonic,roc_auc,0.5681634474735068,0.5681634474735062,5.551115123125783e-16,Same estimator
+day1_primary,R0,boost_monotonic,average_precision,0.4590477577357277,0.4590477577357262,1.4988010832439613e-15,Same estimator
+day1_primary,R0,boost_monotonic,log_loss,0.6734040859503699,0.6734040859503699,0.0,Same estimator
+day1_primary,R0,boost_monotonic,brier,0.24028307872691407,0.24028307872691415,-8.326672684688674e-17,Same estimator
+day1_primary,R0,boost_monotonic,calibration_intercept,0.27941790880221096,0.2787337914711003,0.0006841173311106785,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,boost_monotonic,calibration_slope,1.2154087132881244,1.2145769471417793,0.0008317661463450587,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,boost_monotonic,ece,0.04344051796873623,0.04344051796873623,0.0,Same estimator
+day1_primary,R0,boost_monotonic,sensitivity_at_0_5,0.006006194903336823,0.006006194903336824,-8.673617379884035e-19,Same estimator
+day1_primary,R0,boost_monotonic,specificity_at_0_5,0.9977721966662965,0.9977721966662967,-2.220446049250313e-16,Same estimator
+day1_primary,R0,boost_unconstrained,roc_auc,0.5681634474735068,0.5681634474735062,5.551115123125783e-16,Same estimator
+day1_primary,R0,boost_unconstrained,average_precision,0.4590477577357277,0.4590477577357262,1.4988010832439613e-15,Same estimator
+day1_primary,R0,boost_unconstrained,log_loss,0.6734040859503699,0.6734040859503699,0.0,Same estimator
+day1_primary,R0,boost_unconstrained,brier,0.24028307872691407,0.24028307872691415,-8.326672684688674e-17,Same estimator
+day1_primary,R0,boost_unconstrained,calibration_intercept,0.27941790880221096,0.2787337914711003,0.0006841173311106785,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,boost_unconstrained,calibration_slope,1.2154087132881244,1.2145769471417793,0.0008317661463450587,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,boost_unconstrained,ece,0.04344051796873623,0.04344051796873623,0.0,Same estimator
+day1_primary,R0,boost_unconstrained,sensitivity_at_0_5,0.006006194903336823,0.006006194903336824,-8.673617379884035e-19,Same estimator
+day1_primary,R0,boost_unconstrained,specificity_at_0_5,0.9977721966662965,0.9977721966662967,-2.220446049250313e-16,Same estimator
+day1_primary,R0,logistic,roc_auc,0.5745001133290658,0.5745001133290643,1.5543122344752192e-15,Same estimator
+day1_primary,R0,logistic,average_precision,0.4813705322434635,0.48137053224346193,1.5543122344752192e-15,Same estimator
+day1_primary,R0,logistic,log_loss,0.6725947878364833,0.6725947878364834,-1.1102230246251565e-16,Same estimator
+day1_primary,R0,logistic,brier,0.23990843492227923,0.23990843492227928,-5.551115123125783e-17,Same estimator
+day1_primary,R0,logistic,calibration_intercept,0.4856381432690361,0.48564267320115057,-4.529932114472057e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,logistic,calibration_slope,1.5928173676715929,1.5928340762571847,-1.6708585591773684e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R0,logistic,ece,0.04563620954954102,0.04563620954954101,1.3877787807814457e-17,Same estimator
+day1_primary,R0,logistic,sensitivity_at_0_5,0.00020084462327971936,0.00020084462327971936,0.0,Same estimator
+day1_primary,R0,logistic,specificity_at_0_5,0.999773719418283,0.9997737194182832,-2.220446049250313e-16,Same estimator
+day1_primary,R1,boost_monotonic,roc_auc,0.5285920321767558,0.5285920321767554,3.3306690738754696e-16,Same estimator
+day1_primary,R1,boost_monotonic,average_precision,0.4251085474826581,0.42510854748265736,7.216449660063518e-16,Same estimator
+day1_primary,R1,boost_monotonic,log_loss,0.678402962369825,0.6784029623698252,-2.220446049250313e-16,Same estimator
+day1_primary,R1,boost_monotonic,brier,0.24261854070305852,0.24261854070305852,0.0,Same estimator
+day1_primary,R1,boost_monotonic,calibration_intercept,0.12431920388504385,0.12526494314958386,-0.0009457392645400159,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,boost_monotonic,calibration_slope,0.9137982098319218,0.9156863213677915,-0.001888111535869652,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,boost_monotonic,ece,0.04027729024862555,0.040277290248625676,-1.249000902703301e-16,Same estimator
+day1_primary,R1,boost_monotonic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R1,boost_monotonic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R1,boost_unconstrained,roc_auc,0.5228246103339559,0.5228246103339553,5.551115123125783e-16,Same estimator
+day1_primary,R1,boost_unconstrained,average_precision,0.42254632583225876,0.42254632583225826,4.996003610813204e-16,Same estimator
+day1_primary,R1,boost_unconstrained,log_loss,0.6794815355250042,0.679481535525004,2.220446049250313e-16,Same estimator
+day1_primary,R1,boost_unconstrained,brier,0.24309672660531847,0.24309672660531847,0.0,Same estimator
+day1_primary,R1,boost_unconstrained,calibration_intercept,0.03247586394982692,0.03227937670660876,0.00019648724321815608,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,boost_unconstrained,calibration_slope,0.7340226435490554,0.7336004640766368,0.00042217947241862674,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,boost_unconstrained,ece,0.04152203625455283,0.0415220362545529,-6.938893903907228e-17,Same estimator
+day1_primary,R1,boost_unconstrained,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R1,boost_unconstrained,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R1,logistic,roc_auc,0.5313936998787303,0.5313936998787299,4.440892098500626e-16,Same estimator
+day1_primary,R1,logistic,average_precision,0.43153720541610313,0.4315372054161014,1.7208456881689926e-15,Same estimator
+day1_primary,R1,logistic,log_loss,0.6786424640727046,0.6786424640727045,1.1102230246251565e-16,Same estimator
+day1_primary,R1,logistic,brier,0.24273870365123754,0.24273870365123754,0.0,Same estimator
+day1_primary,R1,logistic,calibration_intercept,0.20880518720720165,0.2128877909410263,-0.004082603733824658,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,logistic,calibration_slope,1.07423102579594,1.0824949122002492,-0.008263886404309195,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R1,logistic,ece,0.040588298636133745,0.040588298636133745,0.0,Same estimator
+day1_primary,R1,logistic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R1,logistic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R2,boost_monotonic,roc_auc,0.5557314243653396,0.5557314243653392,4.440892098500626e-16,Same estimator
+day1_primary,R2,boost_monotonic,average_precision,0.46674875153146156,0.46674875153146,1.5543122344752192e-15,Same estimator
+day1_primary,R2,boost_monotonic,log_loss,0.6750236819502924,0.6750236819502924,0.0,Same estimator
+day1_primary,R2,boost_monotonic,brier,0.2410032468126051,0.24100324681260507,2.7755575615628914e-17,Same estimator
+day1_primary,R2,boost_monotonic,calibration_intercept,0.2885163551975466,0.28931833378144045,-0.0008019785838938587,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,boost_monotonic,calibration_slope,1.249265115277215,1.2510093816185286,-0.0017442663413136383,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,boost_monotonic,ece,0.041895705101110105,0.04189570510111009,1.3877787807814457e-17,Same estimator
+day1_primary,R2,boost_monotonic,sensitivity_at_0_5,0.00930535629108605,0.00930535629108605,0.0,Same estimator
+day1_primary,R2,boost_monotonic,specificity_at_0_5,0.9985890818961194,0.9985890818961196,-2.220446049250313e-16,Same estimator
+day1_primary,R2,boost_unconstrained,roc_auc,0.5560217275219262,0.5560217275219252,9.992007221626409e-16,Same estimator
+day1_primary,R2,boost_unconstrained,average_precision,0.4678275616949474,0.46782756169494577,1.609823385706477e-15,Same estimator
+day1_primary,R2,boost_unconstrained,log_loss,0.6746616854858246,0.6746616854858248,-2.220446049250313e-16,Same estimator
+day1_primary,R2,boost_unconstrained,brier,0.24080408296038028,0.2408040829603803,-2.7755575615628914e-17,Same estimator
+day1_primary,R2,boost_unconstrained,calibration_intercept,0.2735267703379897,0.2737133723030532,-0.00018660196506348203,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,boost_unconstrained,calibration_slope,1.2084755535921683,1.2088520259669566,-0.00037647237478832807,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,boost_unconstrained,ece,0.04726438827670012,0.04726438827670012,0.0,Same estimator
+day1_primary,R2,boost_unconstrained,sensitivity_at_0_5,0.0055619016391391714,0.005561901639139171,8.673617379884035e-19,Same estimator
+day1_primary,R2,boost_unconstrained,specificity_at_0_5,0.996585350629837,0.9965853506298371,-1.1102230246251565e-16,Same estimator
+day1_primary,R2,logistic,roc_auc,0.5607333687320896,0.5607333687320879,1.6653345369377348e-15,Same estimator
+day1_primary,R2,logistic,average_precision,0.4794996655690735,0.4794996655690715,1.9984014443252818e-15,Same estimator
+day1_primary,R2,logistic,log_loss,0.6743217582617363,0.6743217582617363,0.0,Same estimator
+day1_primary,R2,logistic,brier,0.2406202799054625,0.2406202799054625,0.0,Same estimator
+day1_primary,R2,logistic,calibration_intercept,0.2753356583718032,0.2755041836559514,-0.00016852528414823542,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,logistic,calibration_slope,1.2282292931012582,1.228573426072882,-0.00034413297162383394,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R2,logistic,ece,0.04823683964116458,0.04823683964116455,3.469446951953614e-17,Same estimator
+day1_primary,R2,logistic,sensitivity_at_0_5,0.0004760420107655205,0.0004760420107655205,0.0,Same estimator
+day1_primary,R2,logistic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R3,boost_monotonic,roc_auc,0.5092418264651217,0.5092418264651211,6.661338147750939e-16,Same estimator
+day1_primary,R3,boost_monotonic,average_precision,0.41513798978026084,0.41513798978026,8.326672684688674e-16,Same estimator
+day1_primary,R3,boost_monotonic,log_loss,0.6814116160721384,0.6814116160721385,-1.1102230246251565e-16,Same estimator
+day1_primary,R3,boost_monotonic,brier,0.24398809441253058,0.24398809441253058,0.0,Same estimator
+day1_primary,R3,boost_monotonic,calibration_intercept,-0.3136099983481275,-0.31399982149429445,0.00038982314616692326,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,boost_monotonic,calibration_slope,0.09402654377899845,0.09338887636157693,0.0006376674174215224,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,boost_monotonic,ece,0.04057888067359449,0.040578880673594456,3.469446951953614e-17,Same estimator
+day1_primary,R3,boost_monotonic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R3,boost_monotonic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R3,boost_unconstrained,roc_auc,0.5135874842261015,0.5135874842261011,3.3306690738754696e-16,Same estimator
+day1_primary,R3,boost_unconstrained,average_precision,0.41678772783788853,0.41678772783788876,-2.220446049250313e-16,Same estimator
+day1_primary,R3,boost_unconstrained,log_loss,0.6803800550257691,0.6803800550257691,0.0,Same estimator
+day1_primary,R3,boost_unconstrained,brier,0.2435576065691161,0.24355760656911615,-5.551115123125783e-17,Same estimator
+day1_primary,R3,boost_unconstrained,calibration_intercept,0.03350882640409584,0.03781135023030806,-0.004302523826212219,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,boost_unconstrained,calibration_slope,0.7329814505256572,0.7413238142770221,-0.008342363751364879,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,boost_unconstrained,ece,0.04375500830694127,0.043755008306941234,3.469446951953614e-17,Same estimator
+day1_primary,R3,boost_unconstrained,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R3,boost_unconstrained,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R3,logistic,roc_auc,0.5309303595307254,0.5309303595307242,1.2212453270876722e-15,Same estimator
+day1_primary,R3,logistic,average_precision,0.4262543475323161,0.42625434753231545,6.661338147750939e-16,Same estimator
+day1_primary,R3,logistic,log_loss,0.6800605359235556,0.6800605359235556,0.0,Same estimator
+day1_primary,R3,logistic,brier,0.24337713318085516,0.2433771331808551,5.551115123125783e-17,Same estimator
+day1_primary,R3,logistic,calibration_intercept,-0.023938169055208725,-0.02355306905197754,-0.0003851000032311855,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,logistic,calibration_slope,0.6241102475046906,0.624940933300209,-0.0008306857955183711,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R3,logistic,ece,0.04258757632619654,0.042587576326196495,4.163336342344337e-17,Same estimator
+day1_primary,R3,logistic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R3,logistic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R4,boost_monotonic,roc_auc,0.5506880450873166,0.5506880450873153,1.3322676295501878e-15,Same estimator
+day1_primary,R4,boost_monotonic,average_precision,0.4551974425315827,0.45519744253158007,2.609024107869118e-15,Same estimator
+day1_primary,R4,boost_monotonic,log_loss,0.6764562180665021,0.6764562180665019,2.220446049250313e-16,Same estimator
+day1_primary,R4,boost_monotonic,brier,0.24171844675748994,0.2417184467574899,2.7755575615628914e-17,Same estimator
+day1_primary,R4,boost_monotonic,calibration_intercept,0.487118229686725,0.4874175934242166,-0.00029936373749156475,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,boost_monotonic,calibration_slope,1.582478613841766,1.5831307243102328,-0.0006521104684669154,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,boost_monotonic,ece,0.04173490734273797,0.041734907342737985,-1.3877787807814457e-17,Same estimator
+day1_primary,R4,boost_monotonic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R4,boost_monotonic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R4,boost_unconstrained,roc_auc,0.5486154307920967,0.5486154307920955,1.2212453270876722e-15,Same estimator
+day1_primary,R4,boost_unconstrained,average_precision,0.4534538865016919,0.45345388650168966,2.220446049250313e-15,Same estimator
+day1_primary,R4,boost_unconstrained,log_loss,0.6787272936304284,0.6787272936304282,2.220446049250313e-16,Same estimator
+day1_primary,R4,boost_unconstrained,brier,0.24278748924206608,0.24278748924206617,-8.326672684688674e-17,Same estimator
+day1_primary,R4,boost_unconstrained,calibration_intercept,1.3265751143182574,1.3360055124855643,-0.009430398167306953,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,boost_unconstrained,calibration_slope,3.111578855605882,3.1289523027112316,-0.017373447105349715,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,boost_unconstrained,ece,0.042679371296166196,0.04267937129616619,6.938893903907228e-18,Same estimator
+day1_primary,R4,boost_unconstrained,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+day1_primary,R4,boost_unconstrained,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+day1_primary,R4,logistic,roc_auc,0.5685562045087309,0.5685562045087287,2.220446049250313e-15,Same estimator
+day1_primary,R4,logistic,average_precision,0.4676987349986872,0.4676987349986852,1.9984014443252818e-15,Same estimator
+day1_primary,R4,logistic,log_loss,0.6725362358984638,0.6725362358984641,-3.3306690738754696e-16,Same estimator
+day1_primary,R4,logistic,brier,0.23981231012904078,0.23981231012904078,0.0,Same estimator
+day1_primary,R4,logistic,calibration_intercept,0.14377581625269964,0.14333385096822743,0.00044196528447221217,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,logistic,calibration_slope,0.9720885867755039,0.9711512136919073,0.0009373730835966487,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R4,logistic,ece,0.03709799995475773,0.037097999954757724,6.938893903907228e-18,Same estimator
+day1_primary,R4,logistic,sensitivity_at_0_5,0.010815563657103714,0.010815563657103714,0.0,Same estimator
+day1_primary,R4,logistic,specificity_at_0_5,0.9870238846771231,0.9870238846771233,-2.220446049250313e-16,Same estimator
+day1_primary,R5,boost_monotonic,roc_auc,0.713175153355252,0.7131751533552521,-1.1102230246251565e-16,Same estimator
+day1_primary,R5,boost_monotonic,average_precision,0.6072340777190173,0.6072340777190173,0.0,Same estimator
+day1_primary,R5,boost_monotonic,log_loss,0.606872287147294,0.606872287147294,0.0,Same estimator
+day1_primary,R5,boost_monotonic,brier,0.21070609977597032,0.21070609977597032,0.0,Same estimator
+day1_primary,R5,boost_monotonic,calibration_intercept,0.14300933897041992,0.14300679655123924,2.54241918068443e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,boost_monotonic,calibration_slope,0.9491322000016238,0.9491104243128031,2.1775688820668826e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,boost_monotonic,ece,0.044291672155067005,0.04429167215506704,-3.469446951953614e-17,Same estimator
+day1_primary,R5,boost_monotonic,sensitivity_at_0_5,0.43690892154633837,0.43690892154633837,0.0,Same estimator
+day1_primary,R5,boost_monotonic,specificity_at_0_5,0.7955684110175153,0.7955684110175154,-1.1102230246251565e-16,Same estimator
+day1_primary,R5,boost_unconstrained,roc_auc,0.7128639367346357,0.7128639367346358,-1.1102230246251565e-16,Same estimator
+day1_primary,R5,boost_unconstrained,average_precision,0.5981654818714344,0.5981654818714341,2.220446049250313e-16,Same estimator
+day1_primary,R5,boost_unconstrained,log_loss,0.6081651993694411,0.608165199369441,1.1102230246251565e-16,Same estimator
+day1_primary,R5,boost_unconstrained,brier,0.21105466578645768,0.21105466578645768,0.0,Same estimator
+day1_primary,R5,boost_unconstrained,calibration_intercept,0.15050392447869085,0.15050234989284408,1.574585846764176e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,boost_unconstrained,calibration_slope,0.9600291386442787,0.9600050525697742,2.4086074504547916e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,boost_unconstrained,ece,0.04282296294210526,0.04282296294210524,2.0816681711721685e-17,Same estimator
+day1_primary,R5,boost_unconstrained,sensitivity_at_0_5,0.4492252362318527,0.44922523623185273,-5.551115123125783e-17,Same estimator
+day1_primary,R5,boost_unconstrained,specificity_at_0_5,0.7934084355660673,0.7934084355660674,-1.1102230246251565e-16,Same estimator
+day1_primary,R5,logistic,roc_auc,0.7122008224084442,0.7122008224084447,-5.551115123125783e-16,Same estimator
+day1_primary,R5,logistic,average_precision,0.577105378766051,0.5771053787660506,3.3306690738754696e-16,Same estimator
+day1_primary,R5,logistic,log_loss,0.6061740681481439,0.6061740681481439,0.0,Same estimator
+day1_primary,R5,logistic,brier,0.21052880645346764,0.21052880645346764,0.0,Same estimator
+day1_primary,R5,logistic,calibration_intercept,0.15107366708327988,0.15107517112451385,-1.5040412339739628e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,logistic,calibration_slope,0.9896028492683211,0.98958283956908,2.0009699241096968e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+day1_primary,R5,logistic,ece,0.03681959789496661,0.036819597894966624,-1.3877787807814457e-17,Same estimator
+day1_primary,R5,logistic,sensitivity_at_0_5,0.46580905968097763,0.4658090596809776,5.551115123125783e-17,Same estimator
+day1_primary,R5,logistic,specificity_at_0_5,0.7777806159061483,0.7777806159061483,0.0,Same estimator
+two_day_average,R0,boost_monotonic,roc_auc,0.5865872045147354,0.5865872045147354,0.0,Same estimator
+two_day_average,R0,boost_monotonic,average_precision,0.48696026630421785,0.48696026630421657,1.27675647831893e-15,Same estimator
+two_day_average,R0,boost_monotonic,log_loss,0.672624793682451,0.6726247936824509,1.1102230246251565e-16,Same estimator
+two_day_average,R0,boost_monotonic,brier,0.2400208917239069,0.24002089172390695,-5.551115123125783e-17,Same estimator
+two_day_average,R0,boost_monotonic,calibration_intercept,0.33425349312669167,0.3335709833694791,0.0006825097572125682,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,boost_monotonic,calibration_slope,1.3042010247479714,1.3023868769947942,0.001814147753177231,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,boost_monotonic,ece,0.049617834646892574,0.049617834646892574,0.0,Same estimator
+two_day_average,R0,boost_monotonic,sensitivity_at_0_5,0.015598138506978618,0.015598138506978618,0.0,Same estimator
+two_day_average,R0,boost_monotonic,specificity_at_0_5,0.9910241634364318,0.991024163436432,-1.1102230246251565e-16,Same estimator
+two_day_average,R0,boost_unconstrained,roc_auc,0.5865872045147354,0.5865872045147354,0.0,Same estimator
+two_day_average,R0,boost_unconstrained,average_precision,0.48696026630421785,0.48696026630421657,1.27675647831893e-15,Same estimator
+two_day_average,R0,boost_unconstrained,log_loss,0.672624793682451,0.6726247936824509,1.1102230246251565e-16,Same estimator
+two_day_average,R0,boost_unconstrained,brier,0.2400208917239069,0.24002089172390695,-5.551115123125783e-17,Same estimator
+two_day_average,R0,boost_unconstrained,calibration_intercept,0.33425349312669167,0.3335709833694791,0.0006825097572125682,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,boost_unconstrained,calibration_slope,1.3042010247479714,1.3023868769947942,0.001814147753177231,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,boost_unconstrained,ece,0.049617834646892574,0.049617834646892574,0.0,Same estimator
+two_day_average,R0,boost_unconstrained,sensitivity_at_0_5,0.015598138506978618,0.015598138506978618,0.0,Same estimator
+two_day_average,R0,boost_unconstrained,specificity_at_0_5,0.9910241634364318,0.991024163436432,-1.1102230246251565e-16,Same estimator
+two_day_average,R0,logistic,roc_auc,0.5936521752681191,0.593652175268118,1.1102230246251565e-15,Same estimator
+two_day_average,R0,logistic,average_precision,0.5074951671436811,0.5074951671436811,0.0,Same estimator
+two_day_average,R0,logistic,log_loss,0.6720524400919873,0.6720524400919873,0.0,Same estimator
+two_day_average,R0,logistic,brier,0.23959470650743664,0.23959470650743664,0.0,Same estimator
+two_day_average,R0,logistic,calibration_intercept,0.38254310965129057,0.38256359268582407,-2.0483034533502753e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,logistic,calibration_slope,1.3733582831474596,1.3733237865124577,3.449663500187938e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R0,logistic,ece,0.04907140953418781,0.04907140953418782,-1.3877787807814457e-17,Same estimator
+two_day_average,R0,logistic,sensitivity_at_0_5,0.009296296643012604,0.009296296643012606,-1.734723475976807e-18,Same estimator
+two_day_average,R0,logistic,specificity_at_0_5,0.9953863345306396,0.9953863345306396,0.0,Same estimator
+two_day_average,R1,boost_monotonic,roc_auc,0.5371730452272375,0.5371730452272366,8.881784197001252e-16,Same estimator
+two_day_average,R1,boost_monotonic,average_precision,0.44109751372069383,0.4410975137206934,4.440892098500626e-16,Same estimator
+two_day_average,R1,boost_monotonic,log_loss,0.6836031868617916,0.6836031868617916,0.0,Same estimator
+two_day_average,R1,boost_monotonic,brier,0.2451785526636749,0.2451785526636749,0.0,Same estimator
+two_day_average,R1,boost_monotonic,calibration_intercept,1.0969006758785913,1.1047207598510342,-0.007820083972442937,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,boost_monotonic,calibration_slope,2.6957443470796396,2.7104013733805985,-0.014657026300958886,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,boost_monotonic,ece,0.057493168751956356,0.05749316875195634,1.3877787807814457e-17,Same estimator
+two_day_average,R1,boost_monotonic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R1,boost_monotonic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R1,boost_unconstrained,roc_auc,0.47590786400900065,0.4759078640090004,2.220446049250313e-16,Same estimator
+two_day_average,R1,boost_unconstrained,average_precision,0.39520515315486504,0.3952051531548635,1.5543122344752192e-15,Same estimator
+two_day_average,R1,boost_unconstrained,log_loss,0.6863661340667767,0.6863661340667768,-1.1102230246251565e-16,Same estimator
+two_day_average,R1,boost_unconstrained,brier,0.2464607970085501,0.24646079700855006,2.7755575615628914e-17,Same estimator
+two_day_average,R1,boost_unconstrained,calibration_intercept,-1.4981647217511873,-1.5018286961391283,0.0036639743879409714,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,boost_unconstrained,calibration_slope,-2.1803230634487605,-2.187247384149697,0.006924320700936626,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,boost_unconstrained,ece,0.058436936140037775,0.058436936140037796,-2.0816681711721685e-17,Same estimator
+two_day_average,R1,boost_unconstrained,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R1,boost_unconstrained,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R1,logistic,roc_auc,0.5358936621016608,0.5358936621016598,9.992007221626409e-16,Same estimator
+two_day_average,R1,logistic,average_precision,0.43977777744810775,0.4397777774481074,3.3306690738754696e-16,Same estimator
+two_day_average,R1,logistic,log_loss,0.6827935920555454,0.6827935920555455,-1.1102230246251565e-16,Same estimator
+two_day_average,R1,logistic,brier,0.24478561575812968,0.24478561575812963,5.551115123125783e-17,Same estimator
+two_day_average,R1,logistic,calibration_intercept,0.41947642939817753,0.421323938014485,-0.0018475086163074472,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,logistic,calibration_slope,1.4316801187593966,1.435222957734853,-0.003542838975456375,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R1,logistic,ece,0.04650607667946027,0.04650607667946026,1.3877787807814457e-17,Same estimator
+two_day_average,R1,logistic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R1,logistic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R2,boost_monotonic,roc_auc,0.5713808386795138,0.571380838679513,8.881784197001252e-16,Same estimator
+two_day_average,R2,boost_monotonic,average_precision,0.48103221630396203,0.4810322163039614,6.106226635438361e-16,Same estimator
+two_day_average,R2,boost_monotonic,log_loss,0.6770846475848992,0.6770846475848991,1.1102230246251565e-16,Same estimator
+two_day_average,R2,boost_monotonic,brier,0.24205814956159996,0.24205814956159996,0.0,Same estimator
+two_day_average,R2,boost_monotonic,calibration_intercept,0.33560318264780103,0.33599388024592103,-0.0003906975981199934,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,boost_monotonic,calibration_slope,1.3263488768519232,1.3274709806741045,-0.001122103822181364,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,boost_monotonic,ece,0.04309940399846475,0.043099403998464736,1.3877787807814457e-17,Same estimator
+two_day_average,R2,boost_monotonic,sensitivity_at_0_5,0.010063952054612985,0.010063952054612985,0.0,Same estimator
+two_day_average,R2,boost_monotonic,specificity_at_0_5,0.9871856230248971,0.9871856230248973,-2.220446049250313e-16,Same estimator
+two_day_average,R2,boost_unconstrained,roc_auc,0.5679032795691008,0.5679032795691012,-4.440892098500626e-16,Same estimator
+two_day_average,R2,boost_unconstrained,average_precision,0.4823061454175195,0.48230614541751965,-1.6653345369377348e-16,Same estimator
+two_day_average,R2,boost_unconstrained,log_loss,0.6785116259524031,0.678511625952403,1.1102230246251565e-16,Same estimator
+two_day_average,R2,boost_unconstrained,brier,0.2427279896975342,0.2427279896975342,0.0,Same estimator
+two_day_average,R2,boost_unconstrained,calibration_intercept,0.5178982015036678,0.5204439168349377,-0.0025457153312699043,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,boost_unconstrained,calibration_slope,1.649878849789624,1.6556705403174834,-0.005791690527859439,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,boost_unconstrained,ece,0.0576580206564228,0.05765802065642279,1.3877787807814457e-17,Same estimator
+two_day_average,R2,boost_unconstrained,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R2,boost_unconstrained,specificity_at_0_5,0.9985111849520294,0.9985111849520294,0.0,Same estimator
+two_day_average,R2,logistic,roc_auc,0.5735412577284157,0.5735412577284142,1.4432899320127035e-15,Same estimator
+two_day_average,R2,logistic,average_precision,0.49366635840231365,0.49366635840231327,3.885780586188048e-16,Same estimator
+two_day_average,R2,logistic,log_loss,0.6752631036105422,0.6752631036105422,0.0,Same estimator
+two_day_average,R2,logistic,brier,0.24118382427458013,0.24118382427458007,5.551115123125783e-17,Same estimator
+two_day_average,R2,logistic,calibration_intercept,0.3983838650265258,0.39798157930959543,0.00040228571693035065,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,logistic,calibration_slope,1.4639986883697824,1.4637652372036902,0.0002334511660921912,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R2,logistic,ece,0.042396516780749315,0.0423965167807493,1.3877787807814457e-17,Same estimator
+two_day_average,R2,logistic,sensitivity_at_0_5,0.0005906550635115039,0.000590655063511504,-1.0842021724855044e-19,Same estimator
+two_day_average,R2,logistic,specificity_at_0_5,0.9994493994895162,0.999449399489516,1.1102230246251565e-16,Same estimator
+two_day_average,R3,boost_monotonic,roc_auc,0.5405172770681446,0.5405172770681438,7.771561172376096e-16,Same estimator
+two_day_average,R3,boost_monotonic,average_precision,0.4411883248578761,0.4411883248578754,7.216449660063518e-16,Same estimator
+two_day_average,R3,boost_monotonic,log_loss,0.6805427352642053,0.6805427352642052,1.1102230246251565e-16,Same estimator
+two_day_average,R3,boost_monotonic,brier,0.24372068096908597,0.2437206809690859,8.326672684688674e-17,Same estimator
+two_day_average,R3,boost_monotonic,calibration_intercept,0.26831386841502014,0.26859408065618984,-0.00028021224116969723,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,boost_monotonic,calibration_slope,1.1745910737345573,1.1751285330080081,-0.0005374592734508354,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,boost_monotonic,ece,0.04295886905339557,0.04295886905339558,-1.3877787807814457e-17,Same estimator
+two_day_average,R3,boost_monotonic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R3,boost_monotonic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R3,boost_unconstrained,roc_auc,0.5414777356518768,0.5414777356518767,1.1102230246251565e-16,Same estimator
+two_day_average,R3,boost_unconstrained,average_precision,0.4513773477140534,0.4513773477140533,1.1102230246251565e-16,Same estimator
+two_day_average,R3,boost_unconstrained,log_loss,0.6829999758315249,0.6829999758315248,1.1102230246251565e-16,Same estimator
+two_day_average,R3,boost_unconstrained,brier,0.24482279525585227,0.24482279525585232,-5.551115123125783e-17,Same estimator
+two_day_average,R3,boost_unconstrained,calibration_intercept,0.10141918372005243,0.10179072810378112,-0.00037154438372868914,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,boost_unconstrained,calibration_slope,0.8108597243822749,0.8113251486676516,-0.0004654242853766588,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,boost_unconstrained,ece,0.04902299126508356,0.04902299126508353,2.7755575615628914e-17,Same estimator
+two_day_average,R3,boost_unconstrained,sensitivity_at_0_5,0.0001931423922586425,0.00019314239225864255,-5.421010862427522e-20,Same estimator
+two_day_average,R3,boost_unconstrained,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R3,logistic,roc_auc,0.5529704623316628,0.5529704623316614,1.4432899320127035e-15,Same estimator
+two_day_average,R3,logistic,average_precision,0.46467710307456245,0.46467710307456134,1.1102230246251565e-15,Same estimator
+two_day_average,R3,logistic,log_loss,0.6809594639729629,0.680959463972963,-1.1102230246251565e-16,Same estimator
+two_day_average,R3,logistic,brier,0.24389075498440524,0.24389075498440524,0.0,Same estimator
+two_day_average,R3,logistic,calibration_intercept,0.40333976365467905,0.40418968908170966,-0.0008499254270306067,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,logistic,calibration_slope,1.400651577843004,1.402631946658896,-0.0019803688158919197,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R3,logistic,ece,0.04648523757231436,0.04648523757231432,4.163336342344337e-17,Same estimator
+two_day_average,R3,logistic,sensitivity_at_0_5,0.0,0.0,0.0,Same estimator
+two_day_average,R3,logistic,specificity_at_0_5,1.0,1.0,0.0,Same estimator
+two_day_average,R4,boost_monotonic,roc_auc,0.5563282820933302,0.556328282093329,1.2212453270876722e-15,Same estimator
+two_day_average,R4,boost_monotonic,average_precision,0.47027059268893323,0.4702705926889328,4.440892098500626e-16,Same estimator
+two_day_average,R4,boost_monotonic,log_loss,0.6790581195465981,0.6790581195465982,-1.1102230246251565e-16,Same estimator
+two_day_average,R4,boost_monotonic,brier,0.2430362689899186,0.24303626898991865,-5.551115123125783e-17,Same estimator
+two_day_average,R4,boost_monotonic,calibration_intercept,0.4054552197396642,0.40564830692507214,-0.00019308718540794745,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,boost_monotonic,calibration_slope,1.4340315065483435,1.4343754379673364,-0.00034393141899280444,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,boost_monotonic,ece,0.053883723133174126,0.05388372313317411,1.3877787807814457e-17,Same estimator
+two_day_average,R4,boost_monotonic,sensitivity_at_0_5,0.0040043179031589065,0.004004317903158907,-8.673617379884035e-19,Same estimator
+two_day_average,R4,boost_monotonic,specificity_at_0_5,0.9977163062934888,0.9977163062934888,0.0,Same estimator
+two_day_average,R4,boost_unconstrained,roc_auc,0.5588982568720392,0.5588982568720388,4.440892098500626e-16,Same estimator
+two_day_average,R4,boost_unconstrained,average_precision,0.464234197261686,0.464234197261686,0.0,Same estimator
+two_day_average,R4,boost_unconstrained,log_loss,0.6786719569139864,0.6786719569139865,-1.1102230246251565e-16,Same estimator
+two_day_average,R4,boost_unconstrained,brier,0.2428731107637159,0.24287311076371584,5.551115123125783e-17,Same estimator
+two_day_average,R4,boost_unconstrained,calibration_intercept,0.3363170070525261,0.33661315794766117,-0.0002961508951350722,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,boost_unconstrained,calibration_slope,1.2720710224571445,1.2726998172851334,-0.0006287948279888322,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,boost_unconstrained,ece,0.04637153665799352,0.04637153665799349,2.7755575615628914e-17,Same estimator
+two_day_average,R4,boost_unconstrained,sensitivity_at_0_5,0.0007046467290537019,0.000704646729053702,-1.0842021724855044e-19,Same estimator
+two_day_average,R4,boost_unconstrained,specificity_at_0_5,0.9986663713441646,0.9986663713441645,1.1102230246251565e-16,Same estimator
+two_day_average,R4,logistic,roc_auc,0.5766712028662723,0.5766712028662718,4.440892098500626e-16,Same estimator
+two_day_average,R4,logistic,average_precision,0.4945790103471722,0.49457901034717355,-1.3322676295501878e-15,Same estimator
+two_day_average,R4,logistic,log_loss,0.6753225914812452,0.6753225914812451,1.1102230246251565e-16,Same estimator
+two_day_average,R4,logistic,brier,0.241219130401045,0.24121913040104495,5.551115123125783e-17,Same estimator
+two_day_average,R4,logistic,calibration_intercept,0.4145060808619165,0.4141491123406612,0.00035696852125527423,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,logistic,calibration_slope,1.4458995876559952,1.445509672551669,0.0003899151043262883,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R4,logistic,ece,0.04983368347519633,0.04983368347519633,0.0,Same estimator
+two_day_average,R4,logistic,sensitivity_at_0_5,0.00409343057389331,0.00409343057389331,0.0,Same estimator
+two_day_average,R4,logistic,specificity_at_0_5,0.9990926057376195,0.9990926057376195,0.0,Same estimator
+two_day_average,R5,boost_monotonic,roc_auc,0.7070962830473917,0.7070962830473921,-4.440892098500626e-16,Same estimator
+two_day_average,R5,boost_monotonic,average_precision,0.6088267046157885,0.6088267046157885,0.0,Same estimator
+two_day_average,R5,boost_monotonic,log_loss,0.6144903911179429,0.6144903911179429,0.0,Same estimator
+two_day_average,R5,boost_monotonic,brier,0.2139379413326561,0.2139379413326561,0.0,Same estimator
+two_day_average,R5,boost_monotonic,calibration_intercept,0.13842400146231934,0.13842189323394088,2.108228378455701e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,boost_monotonic,calibration_slope,0.9019507994152778,0.9019387429203282,1.2056494949619356e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,boost_monotonic,ece,0.041229328031342875,0.041229328031342855,2.0816681711721685e-17,Same estimator
+two_day_average,R5,boost_monotonic,sensitivity_at_0_5,0.4614565829878584,0.4614565829878584,0.0,Same estimator
+two_day_average,R5,boost_monotonic,specificity_at_0_5,0.7838835605197647,0.7838835605197646,1.1102230246251565e-16,Same estimator
+two_day_average,R5,boost_unconstrained,roc_auc,0.7063136217663623,0.7063136217663624,-1.1102230246251565e-16,Same estimator
+two_day_average,R5,boost_unconstrained,average_precision,0.606405352562135,0.6064053525621351,-1.1102230246251565e-16,Same estimator
+two_day_average,R5,boost_unconstrained,log_loss,0.6158845367618738,0.6158845367618738,0.0,Same estimator
+two_day_average,R5,boost_unconstrained,brier,0.21424780841130078,0.21424780841130078,0.0,Same estimator
+two_day_average,R5,boost_unconstrained,calibration_intercept,0.14179366981464248,0.14179198686685368,1.682947788794742e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,boost_unconstrained,calibration_slope,0.9092065339752448,0.909193038088065,1.34958871798041e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,boost_unconstrained,ece,0.046508911539125085,0.046508911539125085,0.0,Same estimator
+two_day_average,R5,boost_unconstrained,sensitivity_at_0_5,0.45933672683704285,0.45933672683704296,-1.1102230246251565e-16,Same estimator
+two_day_average,R5,boost_unconstrained,specificity_at_0_5,0.7773090491367121,0.7773090491367121,0.0,Same estimator
+two_day_average,R5,logistic,roc_auc,0.7082607017852335,0.708260701785234,-5.551115123125783e-16,Same estimator
+two_day_average,R5,logistic,average_precision,0.5954642974535811,0.595464297453582,-8.881784197001252e-16,Same estimator
+two_day_average,R5,logistic,log_loss,0.6159459130111988,0.6159459130111988,0.0,Same estimator
+two_day_average,R5,logistic,brier,0.2149327527044861,0.2149327527044861,0.0,Same estimator
+two_day_average,R5,logistic,calibration_intercept,0.14565086732542537,0.14564553591967952,5.331405745850892e-06,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,logistic,calibration_slope,0.9312607489043313,0.9312450335769432,1.571532738808834e-05,Converged unpenalized MLE vs original loose-tolerance nearly-unpenalized fit
+two_day_average,R5,logistic,ece,0.053167322710532795,0.053167322710532754,4.163336342344337e-17,Same estimator
+two_day_average,R5,logistic,sensitivity_at_0_5,0.3846046881993823,0.38460468819938237,-5.551115123125783e-17,Same estimator
+two_day_average,R5,logistic,specificity_at_0_5,0.8173502740438311,0.817350274043831,1.1102230246251565e-16,Same estimator

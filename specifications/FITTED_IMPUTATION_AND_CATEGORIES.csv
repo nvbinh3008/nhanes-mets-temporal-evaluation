@@ -1,0 +1,63 @@
+﻿view,block,feature,strategy,fitted_value
+day1_primary,num,rule_state_total_fruits,median,1.0
+day1_primary,num,rule_state_whole_fruits,median,1.0
+day1_primary,num,rule_state_total_vegetables,median,1.0
+day1_primary,num,rule_state_greens_and_beans,median,0.0
+day1_primary,num,rule_state_whole_grains,median,1.0
+day1_primary,num,rule_state_dairy,median,1.0
+day1_primary,num,rule_state_total_protein_foods,median,2.0
+day1_primary,num,rule_state_seafood_and_plant_proteins,median,1.0
+day1_primary,num,rule_state_fatty_acids,median,1.0
+day1_primary,num,rule_state_refined_grains,median,1.0
+day1_primary,num,rule_state_sodium,median,1.0
+day1_primary,num,rule_state_added_sugars,median,1.0
+day1_primary,num,rule_state_saturated_fats,median,1.0
+day1_primary,num,total_violation_burden,median,6.654717370386028
+day1_primary,num,adequacy_violation_burden,median,4.970216720837228
+day1_primary,num,moderation_violation_burden,median,1.713884950847408
+day1_primary,num,number_full_adherence_rules,median,3.0
+day1_primary,num,number_zero_score_rules,median,3.0
+day1_primary,num,maximum_violation_severity,median,1.0
+day1_primary,num,age_years,median,50.0
+day1_primary,num,family_poverty_income_ratio,median,2.12
+day1_primary,num,ltpa_mvpa_equivalent_min_week,median,0.0
+day1_primary,num,alcohol_g_day1,median,5.397605346934028e-79
+day1_primary,cat,sex,most_frequent,2.0
+day1_primary,cat,race_ethnicity_legacy,most_frequent,3.0
+day1_primary,cat,education_adult,most_frequent,4.0
+day1_primary,cat,smoking_status,most_frequent,never
+day1_primary,onehot,sex,fitted category order,"[1.0, 2.0]"
+day1_primary,onehot,race_ethnicity_legacy,fitted category order,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+day1_primary,onehot,education_adult,fitted category order,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+day1_primary,onehot,smoking_status,fitted category order,"[""current"", ""former"", ""never"", null]"
+two_day_average,num,rule_state_total_fruits,median,1.0
+two_day_average,num,rule_state_whole_fruits,median,1.0
+two_day_average,num,rule_state_total_vegetables,median,1.0
+two_day_average,num,rule_state_greens_and_beans,median,0.0
+two_day_average,num,rule_state_whole_grains,median,1.0
+two_day_average,num,rule_state_dairy,median,1.0
+two_day_average,num,rule_state_total_protein_foods,median,2.0
+two_day_average,num,rule_state_seafood_and_plant_proteins,median,1.0
+two_day_average,num,rule_state_fatty_acids,median,1.0
+two_day_average,num,rule_state_refined_grains,median,1.0
+two_day_average,num,rule_state_sodium,median,1.0
+two_day_average,num,rule_state_added_sugars,median,1.0
+two_day_average,num,rule_state_saturated_fats,median,1.0
+two_day_average,num,total_violation_burden,median,6.013977672611919
+two_day_average,num,adequacy_violation_burden,median,4.312139993555366
+two_day_average,num,moderation_violation_burden,median,1.7033524373772506
+two_day_average,num,number_full_adherence_rules,median,3.0
+two_day_average,num,number_zero_score_rules,median,2.0
+two_day_average,num,maximum_violation_severity,median,1.0
+two_day_average,num,age_years,median,50.0
+two_day_average,num,family_poverty_income_ratio,median,2.16
+two_day_average,num,ltpa_mvpa_equivalent_min_week,median,0.0
+two_day_average,num,alcohol_g_day1,median,5.397605346934028e-79
+two_day_average,cat,sex,most_frequent,2.0
+two_day_average,cat,race_ethnicity_legacy,most_frequent,3.0
+two_day_average,cat,education_adult,most_frequent,4.0
+two_day_average,cat,smoking_status,most_frequent,never
+two_day_average,onehot,sex,fitted category order,"[1.0, 2.0]"
+two_day_average,onehot,race_ethnicity_legacy,fitted category order,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+two_day_average,onehot,education_adult,fitted category order,"[1.0, 2.0, 3.0, 4.0, 5.0]"
+two_day_average,onehot,smoking_status,fitted category order,"[""current"", ""former"", ""never"", null]"

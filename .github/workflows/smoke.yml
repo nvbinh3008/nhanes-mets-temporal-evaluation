@@ -1,0 +1,22 @@
+name: Windows reproducibility checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - run: python scripts/verify_release.py --strict
+      - run: 'python -m pip install --require-hashes --only-binary=:all: -r requirements.txt'
+      - run: python -m pip install --no-deps --no-build-isolation .
+      - run: python -m pip check
+      - run: python scripts/smoke_check.py
+      - run: python scripts/regenerate_tables.py --output outputs/tables --check

@@ -1,0 +1,1 @@
+Run `python scripts/smoke_check.py` after installing the project and locked dependencies. This checks the installed entry points and runs synthetic metric, resampling and CLI guard tests without the study workbook, participant data or model objects.

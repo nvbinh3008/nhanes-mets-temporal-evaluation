@@ -1,0 +1,45 @@
+{
+  "timestamp_utc": "2026-11-07T11:34:22.937886+00:00",
+  "views": [
+    {
+      "view": "day1_primary",
+      "knots": [
+        0.033694632646012516,
+        0.2719233715384575,
+        0.4818539335665583,
+        0.8185014836464684
+      ],
+      "coefficients": [
+        5.845010469210461,
+        -4.1373388010552965,
+        -9.660489446462996,
+        -5.8973060870008105,
+        -6.016266077664447,
+        -4.2905864405039775
+      ],
+      "valid": 2000,
+      "planned": 2000,
+      "method": "Unbinned weighted logistic cubic B-spline, 4 fixed weighted-quantile knots; tiny slope ridge 1e-6; 2000 Rao-Wu PSU replicates; pointwise 95% percentile band; 2nd-98th weighted percentile display; conditional on original labels, frozen predictions and chosen smoother"
+    },
+    {
+      "view": "two_day_average",
+      "knots": [
+        0.022039692393213677,
+        0.2799383538613205,
+        0.48704130902234455,
+        0.8045124066797985
+      ],
+      "coefficients": [
+        -1.2979448232654482,
+        2.485313704359032,
+        -2.647698413910698,
+        1.507600280956733,
+        0.765899622814706,
+        3.7585051906479507
+      ],
+      "valid": 2000,
+      "planned": 2000,
+      "method": "Unbinned weighted logistic cubic B-spline, 4 fixed weighted-quantile knots; tiny slope ridge 1e-6; 2000 Rao-Wu PSU replicates; pointwise 95% percentile band; 2nd-98th weighted percentile display; conditional on original labels, frozen predictions and chosen smoother"
+    }
+  ]
+}

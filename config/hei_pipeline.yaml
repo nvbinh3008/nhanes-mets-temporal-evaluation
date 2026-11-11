@@ -1,0 +1,70 @@
+version: "1.0.2"
+project_root: "."
+fped_root: "data/fped"
+fped_extracted_root: "data/fped_extracted"
+staged_root: "data/staged"
+processed_root: "data/processed"
+output_root: "data/hei2020"
+report_root: "reports/hei2020"
+
+cycles:
+  "2007-2008": {folder: "2007_2008", fped_tag: "0708", role: "development", use_modcode: true}
+  "2009-2010": {folder: "2009_2010", fped_tag: "0910", role: "development", use_modcode: true}
+  "2011-2012": {folder: "2011_2012", fped_tag: "1112", role: "development", use_modcode: true}
+  "2013-2014": {folder: "2013_2014", fped_tag: "1314", role: "development", use_modcode: false}
+  "2015-2016": {folder: "2015_2016", fped_tag: "1516", role: "temporal_test", use_modcode: false}
+  "2017-2018": {folder: "2017_2018", fped_tag: "1718", role: "temporal_test", use_modcode: false}
+
+archives:
+  allow_self_extracting_exe: false
+  prefer_official_participant_line_tables: true
+
+linkage:
+  minimum_line_coverage: 0.98
+  minimum_participant_coverage: 0.99
+  fail_below_threshold: true
+  allow_foodcode_modifier0_fallback: false
+  fped_values_are_per_100g: true
+
+scoring:
+  full_adherence_tolerance: 1.0e-8
+  zero_score_tolerance: 1.0e-8
+  added_sugar_kcal_per_tsp: 16.0
+
+representations:
+  r0_raw_dietary:
+    # Raw nutrient variables
+    - energy_kcal
+    - protein_g
+    - carbohydrate_g
+    - total_sugars_g
+    - fiber_g
+    - total_fat_g
+    - saturated_fat_g
+    - monounsaturated_fat_g
+    - polyunsaturated_fat_g
+    - sodium_mg
+    - alcohol_g
+    # Raw cycle-matched FPED food-pattern amounts
+    - fruit_total_cup
+    - fruit_juice_cup
+    - vegetable_total_cup
+    - dark_green_vegetable_cup
+    - legumes_vegetable_cup
+    - whole_grain_oz
+    - refined_grain_oz
+    - protein_food_total_oz
+    - seafood_high_omega3_oz
+    - seafood_low_omega3_oz
+    - soy_oz
+    - nuts_seeds_oz
+    - legumes_protein_oz
+    - dairy_total_cup
+    - added_sugars_tsp
+  r4_rule_features:
+    - total_violation_burden
+    - adequacy_violation_burden
+    - moderation_violation_burden
+    - number_full_adherence_rules
+    - number_zero_score_rules
+    - maximum_violation_severity
